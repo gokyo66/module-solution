@@ -1,125 +1,13 @@
-/* Reset default */
-*
-{
-	box-sizing: border-box;
-	margin: 0px;
-	padding: 0px;
-	font-size: 16px;
-	width: 100%;
-   	font-family: Tahoma, Garamond, Sans-serif;
-   	
-}
-
-
-/* Main container */
-.container
-{
-   width: 90%;
-   position: relative;
-   margin: 0 auto;
-}
-
-section
-{
-	position: relative;
-}
-
-header
-{
-	width: 80%;
-	margin: 0 auto;
-
-}
-
-
 h1
 {
-	text-align: center;
 	font-size: 2em;
 	text-shadow: 2px 2px #888888;
-	margin-bottom: 5%;
 }
 
 
-p
+.navbar-header
 {
-	float: right;
-	width: 100px;
-    text-align: center;
-    padding: 0.4%;
-    background-color: #ffffff;
-    box-shadow: 5px 5px 5px #888888;
+	display: inline-block;
 }
 
-
-article
-{
-	margin-top: 30px;
-}
-
-
-.art1, .art2, .art3, p
-{
-    border: 1px solid #000000;
-}
-
-.art1
-{
-	background-color: #88A612;
-}
-
-.art2
-{
-	background-color: #8866FF;
-}
-
-.art3
-{
-	background-color: #FF66FF;
-}
-
-
-/* Small devices */
-@media (max-width: 767px)
-{
-	section
-	{
-		margin-top: 25px;
-	}
-
-}
-
-/* Medium devices */
-@media (min-width: 768px) and (max-width: 991px)
-{
-	section
-	{
-      float: left;
-	  width: 44%;
-	  margin-top: 25px;
-      margin-left: 15px;
-	  margin-right: 15px;
-	}
-
-	.art3
-	{
-		clear: left;
-		width: 92.5%;
-	}
-
-}
-
-/* Large devices */
-@media (min-width: 992px)
-{
-	section
-	{
-  	  float:left;
-	  width: 29%;
-	  margin-top: 25px;
-      margin-left: 15px;
-	  margin-right: 15px;
-	}
-
-}
 

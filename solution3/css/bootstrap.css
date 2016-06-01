@@ -6550,10 +6550,7 @@ button.close {
 @-ms-viewport {
   width: device-width;
 }
-.visible-xs,
-.visible-sm,
-.visible-md,
-.visible-lg {
+.visible-xs,.visible-sm,.visible-md,.visible-lg {
   display: none !important;
 }
 .visible-xs-block,
